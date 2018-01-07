@@ -1,0 +1,14 @@
+/* need more comments */
+p {
+	color: #f94;
+	background-color: #ff3;
+	font-size: 1.5em;
+}
+
+.first li {
+	background: #999;
+}
+
+li.last {
+	background: #777;
+}
