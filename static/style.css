@@ -1,14 +1,49 @@
-/* need more comments */
+/* giving all elements a border box value 
+ code borrowed from shayhowe.com*/
+* {
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+section, aside {
+	border: 1px solid black;
+	height: 500px;
+}
+
+section {
+	float: left;
+	width: 70%;
+}
+
+aside {
+	float: right;
+	width: 30%;
+}
+
+footer {
+	clear: both;
+}
+
+/* container for main elements */
+.container {
+	background-color: lightblue;
+	margin: 0 auto;
+	padding: 10px 30px;
+}
+
+/*the whole box model*/
 .box {
+	border-radius: 20px;
 	color: #f25;
 	border: 4px solid blue;
-	height: auto;
 	margin: 10px;
 	padding: 15px;
-	width: 200px;
+	width: 500px;
 	background-color: white;
 }
 
+/* Just the p of the box style*/
 .box p {
 	border: 1px dotted #0f0;
 	color: brown;
@@ -16,15 +51,14 @@
 }
 
 p {
-	border: 2px double #00f;
-	color: #f94;
-	background-color: #ff3;
+	color: black;
 	font-size: 1.5em;
 	display: inline-block;
 }
 
 .first li {
 	border: 1px dashed #0ff;
+	margin: 10px;
 	background: #999;
 }
 
@@ -33,7 +67,19 @@ li.last {
 	background: #777;
 }
 
-.first p {
-	display: inline;
+/* typography */
+h1, p {
+	margin-bottom: 10px;
 }
 
+/* Buttons */
+.btn {
+	border-radius: 7px;
+	display: inline-block;
+	margin: 0px;
+}
+
+.btn-alt {
+	border: 1.5px solid purple;
+	padding: 5px 25px;
+}
