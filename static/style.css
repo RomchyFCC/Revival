@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+	color: white;
+}
+
 section, aside {
 	border: 1px solid black;
 	height: 500px;
@@ -25,6 +29,14 @@ footer {
 	clear: both;
 }
 
+h1 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
 /* container for main elements */
 .container {
 	background-color: lightblue;
@@ -32,13 +44,23 @@ footer {
 	padding: 10px 30px;
 }
 
+a {
+	color: maroon;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+}
+
 /*the whole box model*/
 .box {
+	line-height: 20px;
 	border-radius: 20px;
 	color: #f25;
 	border: 4px solid blue;
-	margin: 10px;
-	padding: 15px;
+	margin: 5px 0px;
+	padding: 5px;
 	width: 500px;
 	background-color: white;
 }
@@ -53,7 +75,6 @@ footer {
 p {
 	color: black;
 	font-size: 1.5em;
-	display: inline-block;
 }
 
 .first li {
@@ -76,10 +97,33 @@ h1, p {
 .btn {
 	border-radius: 7px;
 	display: inline-block;
-	margin: 0px;
+	margin: 0px 30px;
 }
 
 .btn-alt {
 	border: 1.5px solid purple;
 	padding: 5px 25px;
+}
+
+#font {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal; /* italic*/
+	font-variant: small-caps;
+	font-weight: bold; /* 1 - 9 * 10^2 */
+	line-height: 22px;
+}
+
+#comment {
+	font-style: italic;
+	color: grey;
+}
+
+.primary {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.btn-right {
+	text-align: right;
 }
