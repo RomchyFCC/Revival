@@ -204,3 +204,22 @@ h1, p {
 .secondary ul{
 	text-align: right;
 }
+
+img {
+	background: orange;
+	background: linear-gradient(to right, #f9ce39, #ff6600);
+	padding: 10px;
+	float: left;
+	width: 400px;
+	height: 300px;
+	margin: 5px;
+}
+
+iframe {
+	width: 1500px;
+	height: 800px;
+}
+
+footer.default {
+	text-align: left;
+}

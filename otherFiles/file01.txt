@@ -1,0 +1,11 @@
+-nvidia to the max
+-insecure launch option
+-cfgmovie -> cfg; cfg -> cfgplay
+-in-game - all to the highest except motion blur and anti-aliasing
+-exec autoexecmvm
+-when in the video: -host_framerate 300, host_timescale 0, cl_draw_only.blablabla(pokaze sam death recap)
+-startmovie "D:\Romchy\CSGO\video\VIDX"
+
+audio
+-host_timescale 1, host_framerate 0
+-startmovie "D:\Romchy\CSGO\video\AUDX"
