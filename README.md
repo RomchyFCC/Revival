@@ -8,7 +8,3 @@ The code is clumped up and unorginized, i might come around to fixing that some 
 
 I just wanted a file where i use most popular stuff provided by html and css.
 
-Anyone is welcome to leave a comment on how they would make it better.
-
-#### All who contribute will be writen here and in the comment of the file they made better.
-
